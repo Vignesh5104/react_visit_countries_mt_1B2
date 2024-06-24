@@ -1,0 +1,59 @@
+.visited-country-list {
+  list-style: none;
+  padding: 10px;
+  width: 100%;
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .visited-country-list {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .visited-country-list {
+    width: 33%;
+    flex-grow: 1;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .visited-country-list {
+    width: 25%;
+    padding: 15px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .visited-country-list {
+    width: 20%;
+    padding: 15px;
+  }
+}
+
+.country-flag-image {
+  width: 100%;
+}
+
+.country-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2b2b2b;
+  margin: 0px;
+  padding: 0px 20px;
+}
+
+.country-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  margin-right: 10px;
+}
+
+.remove-button {
+  font-size: 12px;
+  font-weight: 600;
+  border: none;
+  background-color: orange;
+  color: #1e1e35;
+  padding: 6px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
